@@ -48,7 +48,7 @@ elseif (UNIX AND NOT APPLE)
             URL https://devbuilds.gleec.com/feat-safeerc20-v1-tests/kdf_ac29497-linux-x86-64.zip)
 else ()
     FetchContent_Declare(kdf
-            URL https://devbuilds.gleec.com/feat-safeerc20-v1-tests/kdf_ac29497-win-x86-64.zip)
+            URL https://github.com/cdonnachie/komodo-defi-framework/releases/download/testing/kdf-win-x86-64.zip)
 endif ()
 
 FetchContent_Declare(
@@ -58,7 +58,7 @@ FetchContent_Declare(
 )
 
 FetchContent_Declare(jl777-coins
-        URL https://github.com/cipig/coins/archive/nogeo.zip)
+        URL https://github.com/cdonnachie/coins/archive/master.zip)
 
 #FetchContent_Declare(adex-generics-coins
 #        URL https://github.com/KomodoPlatform/komodo-wallet-desktop/archive/main.zip)
